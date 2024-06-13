@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#particles canvas{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* btn sosmed */
+.btn-sosmed {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+  position: relative;
+  z-index: 0;
+  transition: 0.1s;
+}
+
+.btn-sosmed:nth-child(2) {
+  background: #4267b2;
+}
+
+.btn-sosmed:nth-child(3) {
+  background: black;
+}
+
+.btn-sosmed:nth-child(4) {
+  background: #0A66C2;
+}
+
+
+.btn-sosmed:active {
+  transform: scale(0.85);
+}
+
+.btn-sosmed::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: #00010D;
+  border-radius: 50px;
+  z-index: -1;
+  border: 0px solid rgba(255, 255, 255, 0.411);
+  transition: 0.4s;
+}
+
+.btn-sosmed:hover::before {
+  width: 0px;
+  height: 0px;
+}
+
+/* btn download */
+.bookmarkBtn {
+  width: 150px;
+  height: 44px;
+  border-radius: 40px;
+  border: 1px solid #E5E0E1;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+
+.IconContainer {
+  width: 50px;
+  height: 36px;
+  background: #E5E0E1;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.5s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text {
+  height: 36px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E5E0E1;
+  z-index: 1;
+  transition-duration: 0.5s;
+  font-size: 16px;
+}
+
+.bookmarkBtn:hover .IconContainer {
+  width: 150px;
+  transition-duration: 0.5s;
+}
+
+.bookmarkBtn:hover .text {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.5s;
+}
+
+.bookmarkBtn:active {
+  transform: scale(0.95);
+  transition-duration: 0.5s;
+}
+
+
+/* scrollbar hero */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  margin-left: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00010D;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E5E0E1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E5E0E1;
+}
