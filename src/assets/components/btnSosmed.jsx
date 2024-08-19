@@ -6,21 +6,26 @@ export default function BtnSosmed (){
     const sosmeds = [
         {
             id: 1,
-            icon: "bi bi-instagram",
+            icon: "bi bi-whatsapp",
             url: "/",
         },
         {
             id: 2,
+            icon: "bi bi-instagram",
+            url: "/",
+        },
+        {
+            id: 3,
             icon: "bi bi-facebook",
             url: "/about",
         },
         {
-            id: 3,
+            id: 4,
             icon: "bi bi-github",
             url: "/project",
         },
         {
-            id: 4,
+            id: 5,
             icon: "bi bi-linkedin",
             url: "/contact",
         },

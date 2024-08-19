@@ -7,7 +7,8 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 
 
-const ParticlesComponent = (props) => {
+function ParticlesComponent(props) {
+const numberOfDots = 250
 
 const [init, setInit] = useState(false);
 // this should be run only once per application lifetime
@@ -87,7 +88,7 @@ const options = useMemo(
             density: {
                 enable: true,
             },
-            value: 250,
+            value: numberOfDots,
             },
             opacity: {
             value: 0.8,
