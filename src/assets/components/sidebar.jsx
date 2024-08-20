@@ -51,6 +51,7 @@ export default function Sidebar({valueMain, togleClickMain, navMenu, handleMenuH
                     <div className="bg-transparent mt-2 w-full h-[45%] relative rounded-xl flex flex-col justify-center items-center">
                         <h2 className="text-primary text-[16px]">Muhammad Rizky Yusril Arasyhi</h2>
                         <h2 className="text-slate-500 text-[16px]">FrontEnd Developer</h2>
+                        <h2 className="text-slate-500 text-[12px]">muhammadrizkyyusrilarasyhi00@gmail.com</h2>
                     </div>
                 </div>
                 <div className="w-full border-b border-dashed border-primary"></div>

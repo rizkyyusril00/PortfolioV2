@@ -1,5 +1,7 @@
 import Sidebar from "./sidebar"
 import Home from "./home"
+import About from "./about"
+import Project from "./project"
 import Certificate from "./certificate"
 
 export default function Main({value, togleClick, navMenu, handleMenuHome, handleMenuAbout, handleMenuProject, handleMenuCertificate}) {
@@ -15,6 +17,14 @@ export default function Main({value, togleClick, navMenu, handleMenuHome, handle
                         {/* Home */}
                         <div className={navMenu === "Home" ? "" : "hidden"}>
                             <Home />
+                        </div>
+                        {/* About */}
+                        <div className={navMenu === "About" ? "" : "hidden"}>
+                            <About />
+                        </div>
+                        {/* Project */}
+                        <div className={navMenu === "Project" ? "" : "hidden"}>
+                            <Project />
                         </div>
                         {/* Certificate */}
                         <div className={navMenu === "Certificate" ? "" : "hidden"}>
