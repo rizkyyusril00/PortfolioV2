@@ -14,26 +14,33 @@ function App() {
     }
   };
   
+  // blob show
+  const [blobShow, setBlobShow] = useState("Home")
+
   // navigation sidebar menus
   const [navMenu, setNavMenu] = useState("Home")
   const handleMenuHome = () => {
     setNavMenu("Home");
+    setBlobShow("Home");
   };
   const handleMenuAbout = () => {
     setNavMenu("About");
+    setBlobShow("About");
   };
   const handleMenuProject = () => {
     setNavMenu("Project");
+    setBlobShow("Project");
   };
   const handleMenuCertificate = () => {
     setNavMenu("Certificate");
+    setBlobShow("Certificate");
   };
 
 
   return (
     <div className={value === 1 ? "bg-transparent" : "bg-bg"}>
       <ParticlesComponent  id={value === 1 ? "particles" : "particles2"}/>
-      <Main value={value} togleClick={togleClick} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
+      <Main value={value} togleClick={togleClick} blobShow={blobShow} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
     </div>
   )
 }

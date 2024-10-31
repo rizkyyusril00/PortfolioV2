@@ -11,7 +11,7 @@ export default function Project(){
         <>
             {/* box 1 */}
             <div className="flex flex-col gap-4 pb-4">
-                <h2 className="text-[36px] text-primary">List of My <span>Project</span></h2>
+                <h2 className="text-[36px] lg:text-[40px] xl:text-[44px] text-primary">List of My <span>Project</span></h2>
             </div>
 
             {/* box 2 */}
@@ -24,14 +24,14 @@ export default function Project(){
                             <img src={Project1} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
                         <div className="flex items-center gap-2">
-                            <i className="bi bi-1-circle text-[16px] text-primary group-hover:text-bg"></i>
-                            <h2 className="text-[16px] text-primary group-hover:text-bg">Landing Page For Studio Photo</h2>
+                            <i className="bi bi-1-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
+                            <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Landing Page For Studio Photo</h2>
                         </div>
                         <div className='flex gap-2'>
-                            <figure className="w-[20px] h-[20px]">
+                            <figure className="w-[20px] h-[20px] lg:w-6 lg:h-6 xl:w-7 xl:h-7">
                                 <img src={LogoTailwind } alt="" className="w-full h-full object-fit"/>
                             </figure>
-                            <i className="fa-brands fa-react text-[20px] text-[#00d8ff]"></i>
+                            <i className="fa-brands fa-react text-[20px] lg:text-[24px] xl:text-[28px] text-[#00d8ff]"></i>
                         </div>
                     </a>
                     {/* 2 */}
@@ -40,14 +40,14 @@ export default function Project(){
                             <img src={Project2} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
                         <div className="flex items-center gap-2">
-                            <i className="bi bi-2-circle text-[16px] text-primary group-hover:text-bg"></i>
-                            <h2 className="text-[16px] text-primary group-hover:text-bg">Portfolio For Owner Mangcoding</h2>
+                            <i className="bi bi-2-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
+                            <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Portfolio For Owner Mangcoding</h2>
                         </div>
                         <div className='flex gap-2'>
-                            <figure className="w-[20px] h-[20px]">
+                            <figure className="w-[20px] h-[20px] lg:w-6 lg:h-6 xl:w-7 xl:h-7">
                                 <img src={LogoTailwind } alt="" className="w-full h-full object-fit"/>
                             </figure>
-                            <i className="fa-brands fa-react text-[20px] text-[#00d8ff]"></i>
+                            <i className="fa-brands fa-react text-text-[20px] lg:[24px] xl:text-[28px] text-[#00d8ff]"></i>
                         </div>
                     </a>
                 </div>
@@ -60,14 +60,14 @@ export default function Project(){
                             <img src={Project3} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
                         <div className="flex items-center gap-2">
-                            <i className="bi bi-3-circle text-[16px] text-primary group-hover:text-bg"></i>
-                            <h2 className="text-[16px] text-primary group-hover:text-bg">Ordinary Landing Page</h2>
+                            <i className="bi bi-3-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
+                            <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Ordinary Landing Page</h2>
                         </div>
                         <div className='flex gap-2'>
-                            <figure className="w-[20px] h-[20px]">
+                            <figure className="w-[20px] h-[20px] lg:w-6 lg:h-6 xl:w-7 xl:h-7">
                                 <img src={LogoTailwind } alt="" className="w-full h-full object-fit"/>
                             </figure>
-                            <i className="fa-brands fa-react text-[20px] text-[#00d8ff]"></i>
+                            <i className="fa-brands fa-react text-[20px] lg:text-[24px] xl:text-[28px] text-[#00d8ff]"></i>
                         </div>
                     </a>
                     {/* 2 */}
@@ -76,14 +76,14 @@ export default function Project(){
                             <img src={Project4} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
                         <div className="flex items-center gap-2">
-                            <i className="bi bi-4-circle text-[16px] text-primary group-hover:text-bg"></i>
-                            <h2 className="text-[16px] text-primary group-hover:text-bg">Landing Page For Point of Sale</h2>
+                            <i className="bi bi-4-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
+                            <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Landing Page For Point of Sale</h2>
                         </div>
                         <div className='flex gap-2'>
-                            <figure className="w-[20px] h-[20px]">
+                            <figure className="w-[20px] h-[20px] lg:w-6 lg:h-6 xl:w-7 xl:h-7">
                                 <img src={LogoTailwind } alt="" className="w-full h-full object-fit"/>
                             </figure>
-                            <i className="fa-brands fa-react text-[20px] text-[#00d8ff]"></i>
+                            <i className="fa-brands fa-react text-[20px] lg:text-[24px] xl:text-[28px] text-[#00d8ff]"></i>
                         </div>
                     </a>
                 </div>
@@ -96,14 +96,14 @@ export default function Project(){
                             <img src={Project5} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
                         <div className="flex items-center gap-2">
-                            <i className="bi bi-5-circle text-[16px] text-primary group-hover:text-bg"></i>
-                            <h2 className="text-[16px] text-primary group-hover:text-bg">Static E Commerce</h2>
+                            <i className="bi bi-5-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
+                            <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Static E Commerce</h2>
                         </div>
                         <div className='flex gap-2'>
-                            <figure className="w-[20px] h-[20px]">
+                            <figure className="w-[20px] h-[20px] lg:w-6 lg:h-6 xl:w-7 xl:h-7">
                                 <img src={LogoTailwind } alt="" className="w-full h-full object-fit"/>
                             </figure>
-                            <i className="fa-brands fa-react text-[20px] text-[#00d8ff]"></i>
+                            <i className="fa-brands fa-react text-[20px] lg:text-[24px] xl:text-[28px] text-[#00d8ff]"></i>
                         </div>
                     </a>
                 </div>
