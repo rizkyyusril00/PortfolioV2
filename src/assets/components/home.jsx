@@ -2,6 +2,7 @@ import CV from "../../assets/CV.pdf"
 import LogoMangcoding from "../img/logo-mangcoding.png"
 import LogoTailwind from "../img/tailwind-logo.svg"
 import LogoVite from "../../../public/vite.svg"
+import LogoNextJs from "../img/nextJs.png"
 
 export default function Home() {
     const skills =[
@@ -27,16 +28,11 @@ export default function Home() {
         },
         {
             id: 5,
-            logo :"fa-brands fa-vuejs text-[16px] lg:text-[20px] xl:text-[24px] text-[#41b883]",
-            nama: "Vue JS"
-        },
-        {
-            id: 6,
             logo :"fa-brands fa-npm text-[16px] lg:text-[20px] xl:text-[24px] text-[#cc3534]",
             nama: "NPM"
         },
         {
-            id: 7,
+            id: 6,
             logo :"fa-brands fa-bootstrap text-[16px] lg:text-[20px] xl:text-[24px] text-[#563d7c]",
             nama: "Bootstrap"
         },
@@ -145,6 +141,12 @@ export default function Home() {
                             <h2 className="text-[14px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">{skill.nama}</h2>
                         </div>
                     ))}
+                    <div className="flex items-center gap-2 cursor-pointer border border-primary rounded-xl p-2 group hover:bg-primary hover:border-bg">
+                        <figure className="w-4 h-4 lg:w-[20px] lg:h-[20px] xl:w-[24px] xl:h-[24px]">
+                            <img src={LogoNextJs } alt="" className="w-full h-full object-fit"/>
+                        </figure>
+                        <h2 className="text-[14px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Next Js</h2>
+                    </div>
                     <div className="flex items-center gap-2 cursor-pointer border border-primary rounded-xl p-2 group hover:bg-primary hover:border-bg">
                         <figure className="w-4 h-4 lg:w-[20px] lg:h-[20px] xl:w-[24px] xl:h-[24px]">
                             <img src={LogoTailwind } alt="" className="w-full h-full object-fit"/>
