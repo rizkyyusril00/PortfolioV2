@@ -44,7 +44,7 @@ export default function Home() {
     return (
         <>
             {/* box 1 */}
-            <div className="flex flex-col gap-2 slg:gap-4 pb-4">
+            <div className="flex flex-col gap-2 slg:gap-4 pb-4 px-2 md:px-0">
                 <h2 className="text-[28px] slg:text-[36px] lg:text-[40px] xl:text-[44px] text-primary">Supp, Im <span>FrontEnd Developer</span></h2>
                 <ul className="flex items-center text-[16px] text-primary gap-10">
                     <div className="flex items-center">
@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
             </div>
             {/* box 2 */}
-            <div className="flex flex-col gap-4 slg:gap-6 py-4 border-y border-dashed border-primary">
+            <div className="flex flex-col gap-4 slg:gap-6 py-4 border-y border-dashed border-primary px-2 md:px-0">
                 {/* Journey */}
                 <div className="flex justify-between">
                     {/* box kiri */}
@@ -160,7 +160,7 @@ export default function Home() {
                 </div>
             </div>
             {/* contact */}
-            <div className="flex flex-col gap-6 py-4">
+            <div className="flex flex-col gap-6 py-4 px-2 md:px-0">
                 <div className="flex items-center gap-4">
                     <i className="bi bi-person-raised-hand text-[20px] slg:text-[24px] xl:text-[28px] lg:text-[28px] text-primary"></i>
                     <h2 className="text-[20px] slg:text-[24px] lg:text-[28px] xl:text-[32px] text-primary">Get in Touch</h2>
@@ -181,7 +181,7 @@ export default function Home() {
                             </div>
                         </div>
                         <label htmlFor="message" className="label_txt text-primary">Write Your Message</label>
-                        <textarea name="" id="message" rows="5" className="text-primary rounded-md p-2 ml-[1px] resize-none transition-all ease-in-out duration-500"></textarea>
+                        <textarea name="" id="message" rows="1" className="w-[99%] md:w-full text-primary rounded-md p-2 ml-[1px] resize-none transition-all ease-in-out duration-500"></textarea>
                         {/* submit */}
                         <button type="submit" className="btnSubmit w-[20%] h-10 text-[18px] lg:[22px]">Send
                         </button>

@@ -19,7 +19,7 @@ export default function Main({value, blobShow, togleClick, navMenu, handleMenuHo
     return(
         <>
             <div className="main-box">
-                <div className="bg-transparent max-w-[1440px] w-[80%] h-screen mx-auto py-8 bg-opacity-85 flex gap-10">
+                <div className="bg-transparent max-w-[1440px] w-[95%] md:w-[80%] h-screen mx-auto py-8 bg-opacity-85 flex gap-10">
                     {/* sidebar */}
                     {deviceSize()}
                     {/* hero */}
