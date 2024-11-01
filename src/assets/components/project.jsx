@@ -23,7 +23,7 @@ export default function Project(){
                         <figure className="bg-white w-full">
                             <img src={Project1} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-1-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Landing Page For Studio Photo</h2>
                         </div>
@@ -39,7 +39,7 @@ export default function Project(){
                         <figure className="bg-white w-full">
                             <img src={Project2} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-2-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Portfolio For Owner Mangcoding</h2>
                         </div>
@@ -59,7 +59,7 @@ export default function Project(){
                         <figure className="bg-white w-full">
                             <img src={Project3} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-3-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Ordinary Landing Page</h2>
                         </div>
@@ -75,7 +75,7 @@ export default function Project(){
                         <figure className="bg-white w-full">
                             <img src={Project4} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-4-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Landing Page For Point of Sale</h2>
                         </div>
@@ -95,7 +95,7 @@ export default function Project(){
                         <figure className="bg-white w-full">
                             <img src={Project5} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-5-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Static E Commerce</h2>
                         </div>

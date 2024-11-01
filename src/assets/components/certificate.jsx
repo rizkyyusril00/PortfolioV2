@@ -32,7 +32,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={Certi1} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-1-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Haltev Intoduction To Programming</h2>
                         </div>
@@ -42,7 +42,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={Certi2} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-2-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">DQLab Python, R, SQL Fundamental</h2>
                         </div>
@@ -55,7 +55,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={Certi3} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-3-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">GTTC Database Fundamental</h2>
                         </div>
@@ -65,7 +65,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={Certi4} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-4-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">GTTC Artificial Intelligence Fundamental</h2>
                         </div>
@@ -87,8 +87,8 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={I_Certi1} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
-                            <i className="bi bi-3-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
+                        <div className="flex gap-2">
+                            <i className="bi bi-1-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Intership at PT Anugrah Kreasi Digital </h2>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={S_Certi1} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-1-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Company Visit QWords</h2>
                         </div>
@@ -119,7 +119,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={S_Certi2} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-2-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Seminar Looping By University Lecturer</h2>
                         </div>
@@ -132,7 +132,7 @@ export default function Certificate() {
                         <figure className="bg-white w-full">
                             <img src={S_Certi3} className='w-full h-full transition-all duration-500 ease-in-out hover:scale-110' alt="certificate1" />
                         </figure>
-                        <div className="flex items-center gap-2">
+                        <div className="flex gap-2">
                             <i className="bi bi-3-circle text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
                             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">Seminar Cakap Digital By Kominfo</h2>
                         </div>
