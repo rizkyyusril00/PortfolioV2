@@ -84,20 +84,20 @@ export default function Home() {
                 </div>
                 {/* card experience */}
                 <div className="flex items-center gap-2">
-                    <div className="bg-transparent border border-primary rounded-md p-4 w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
+                    <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
                         <figure className="w-full">
                             <img src={LogoMangcoding} alt="logo_mangcoding" className="w-full h-full object-cover"/>
                         </figure>
                         <div className="flex flex-col gap-2">
                             <div className="flex items-center gap-1">
-                                <a href="" target="_blank" className="text-primary text-[8px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">PT. Anugrah Kreasi Digital</a>
-                                <i className="bi bi-dot text-primary text-[8px] slg:text-[10px] lg:text-[14px] leading-tight group-hover:text-bg"></i>                                    
-                                <p className="text-primary text-[8px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">Sukabumi</p>
+                                <a href="" target="_blank" className="text-primary text-[12px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">PT. Anugrah Kreasi Digital</a>
+                                <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] leading-tight group-hover:text-bg"></i>                                    
+                                <p className="text-primary text-[12px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">Sukabumi</p>
                             </div>
                             <div className="flex items-center gap-1">
-                                <h2 className="text-primary text-[6.5px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">Frontend Developer</h2>    
-                                <i className="bi bi-dot text-primary text-[8px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
-                                <p className="text-primary text-[6.5px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">February 2024 ~ Juni 2024</p>                                   
+                                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">Frontend Developer</h2>    
+                                <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
+                                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">February 2024 ~ Juni 2024</p>                                   
                             </div>
                         </div>
                     </div>
