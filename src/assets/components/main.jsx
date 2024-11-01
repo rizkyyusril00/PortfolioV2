@@ -3,13 +3,14 @@ import Home from "./home"
 import About from "./about"
 import Project from "./project"
 import Certificate from "./certificate"
+import MobileNav from "./mobileNav"
 
 export default function Main({value, blobShow, togleClick, navMenu, handleMenuHome, handleMenuAbout, handleMenuProject, handleMenuCertificate}) {
 
     const deviceSize = () => {
         if (window.innerWidth > 768) {
             return(
-                <Sidebar className="hidden" valueMain={value} blobShow={blobShow} togleClickMain={togleClick} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
+                <Sidebar className="" valueMain={value} blobShow={blobShow} togleClickMain={togleClick} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
             );
         } else {
             return null
@@ -18,8 +19,8 @@ export default function Main({value, blobShow, togleClick, navMenu, handleMenuHo
 
     return(
         <>
-            <div className="main-box">
-                <div className="bg-transparent max-w-[1440px] w-[95%] md:w-[80%] h-screen mx-auto py-8 bg-opacity-85 flex gap-10">
+            <div className="main-box relative">
+                <div className="bg-transparent max-w-[1440px] w-[95%] md:w-[80%] h-screen mx-auto pt-8 md:py-8 bg-opacity-85 flex gap-10">
                     {/* sidebar */}
                     {deviceSize()}
                     {/* hero */}
@@ -41,7 +42,8 @@ export default function Main({value, blobShow, togleClick, navMenu, handleMenuHo
                             <Certificate />
                         </div>
                     </div>
-                </div>             
+                </div>     
+                <MobileNav navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>        
             </div>
         </>
     )
