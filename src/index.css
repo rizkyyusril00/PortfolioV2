@@ -17,6 +17,10 @@
   /* background-color: #00010D; */
 }
 
+body{
+  font-family: "Gabarito", sans-serif;
+}
+
 /* btn sosmed */
 .btn-sosmed {
   cursor: pointer;
