@@ -17,7 +17,7 @@ export default function Project(){
             {/* box 2 */}
             <div className="flex flex-col gap-6 py-4 border-t border-dashed border-primary">
                 {/* 1 */}
-                <div className="flex items-center gap-2">
+                <div className="flex gap-2">
                     {/* 1 */}
                     <a href="https://homelens-gamma.vercel.app/" target="_blank" className="flex flex-col gap-4 border border-primary rounded-md p-4 w-1/2 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out overflow-hidden cursor-pointer">
                         <figure className="bg-white w-full">
@@ -53,7 +53,7 @@ export default function Project(){
                 </div>
 
                 {/* 2 */}
-                <div className="flex items-center gap-2">
+                <div className="flex gap-2">
                     {/* 1 */}
                     <a href="https://nexcent-red.vercel.app/" target="_blank" className="flex flex-col gap-4 border border-primary rounded-md p-4 w-1/2 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out overflow-hidden cursor-pointer">
                         <figure className="bg-white w-full">
@@ -89,7 +89,7 @@ export default function Project(){
                 </div>
 
                 {/* 3 */}
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex justify-center gap-2">
                     {/* 1 */}
                     <a href="https://mangstore-react.vercel.app/" target="_blank" className="flex flex-col gap-4 border border-primary rounded-md p-4 w-1/2 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out overflow-hidden">
                         <figure className="bg-white w-full">
