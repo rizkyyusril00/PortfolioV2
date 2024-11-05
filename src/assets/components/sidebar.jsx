@@ -13,7 +13,7 @@ export default function Sidebar({valueMain, blobShow, togleClickMain, navMenu, h
                 <div className="bg-transparent w-[100%] h-auto">
                     {/* section 1 */}
                     <div className="bg-gradient-to-r from-[#091384] to-[#215BB8] w-full h-[40%] slg:h-[50%] relative rounded-xl flex justify-center items-center">
-                        <button onClick={togleClickMain} className="bg-bg btn-wa w-8 h-8 slg:w-10 slg:h-10 xl:w-12 xl:h-12 absolute top-0 right-0 rounded-bl-xl rounded-tr-md flex items-center justify-center leading-tight text-[12px] group">
+                        <button id="toggle-particles" aria-label="Toggle Particles" onClick={togleClickMain} className="bg-bg btn-wa w-8 h-8 slg:w-10 slg:h-10 xl:w-12 xl:h-12 absolute top-0 right-0 rounded-bl-xl rounded-tr-md flex items-center justify-center leading-tight text-[12px] group">
                             <a className={` group-hover:animate-pulse group-hover:text-bold group-hover:font-bold text-primary text-center text-[10px] slg:text-[14px] xl:text-[16px] transition-all duration-300 ease-in-out ${valueMain === 1 ? "fa-regular fa-eye-slash" : "fa-regular fa-eye"}`}></a>
                         </button>
                     </div>
