@@ -1,7 +1,7 @@
 import CV from "../../../assets/CV.pdf" 
 import LogoMangcoding from "../../img/logo-mangcoding.png"
 import LogoTailwind from "../../img/tailwind-logo.svg"
-import LogoVite from "../../../../public/vite.svg"
+import LogoVite from "/vite.svg"
 import LogoNextJs from "../../img/nextJs.png"
 
 

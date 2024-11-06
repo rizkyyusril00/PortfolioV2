@@ -8,7 +8,7 @@ import MobileNav from "./mobileNav"
 export default function Main({value, blobShow, togleClick, navMenu, handleMenuHome, handleMenuAbout, handleMenuProject, handleMenuCertificate}) {
 
     const deviceSize = () => {
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 767) {
             return(
                 <Sidebar className="" valueMain={value} blobShow={blobShow} togleClickMain={togleClick} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
             );
