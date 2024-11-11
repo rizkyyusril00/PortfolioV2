@@ -6,6 +6,7 @@ import Project3 from '../../img/project_3.png'
 import Project4 from '../../img/project_4.png'
 import Project5 from '../../img/project_5.png'
 import Project6 from '../../img/project_6.png' 
+import Project7 from '../../img/project_7.png' 
 
 export default function ProjectBox2 () {
     const projects = [
@@ -36,11 +37,11 @@ export default function ProjectBox2 () {
             link: "https://nexcent-red.vercel.app/",
             img: Project3,
             number: "bi bi-3-circle",
-            title: "Ordinary Landing Page",
+            title: "Anime List With Jikan API",
             logo : LogoTailwind,
             logo2 : "fa-brands fa-react",
-            logo3 : "",
-            have3logo: false
+            logo3 : LogoNextJs,
+            have3logo: true
         },
         {
             id: 4,
@@ -74,6 +75,17 @@ export default function ProjectBox2 () {
             logo2 : "fa-brands fa-react",
             logo3 : LogoNextJs,
             have3logo: true
+        },
+        {
+            id: 7,
+            link: "https://nexcent-red.vercel.app/",
+            img: Project7,
+            number: "bi bi-7-circle",
+            title: "Ordinary Landing Page",
+            logo : LogoTailwind,
+            logo2 : "fa-brands fa-react",
+            logo3 : "",
+            have3logo: false
         },
     ]
     return (

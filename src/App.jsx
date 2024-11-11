@@ -38,10 +38,12 @@ function App() {
 
 
   return (
-    <div className={value === 1 ? "bg-transparent" : "bg-bg"}>
-      <ParticlesComponent  id={value === 1 ? "particles" : "particles2"}/>
-      <Main value={value} togleClick={togleClick} blobShow={blobShow} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
-    </div>
+    <>
+      <div className={value === 1 ? "bg-transparent" : "bg-bg"}>
+        <ParticlesComponent  id={value === 1 ? "particles" : "particles2"}/>
+        <Main value={value} togleClick={togleClick} blobShow={blobShow} navMenu={navMenu} handleMenuHome={handleMenuHome} handleMenuAbout={handleMenuAbout} handleMenuProject={handleMenuProject} handleMenuCertificate={handleMenuCertificate}/>
+      </div>
+    </>
   )
 }
 
