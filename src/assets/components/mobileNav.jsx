@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Hero from "../img/Hero.jpg"
-import BtnSosmed from "./btnSosmed";
+import Cat from "../img/cat3.gif"
 
 export default function MobileNav({navMenu, handleMenuHome, handleMenuAbout, handleMenuProject, handleMenuCertificate}) {
     const [showMedsosMobile, setShowMedsosMobile] = useState(false);
@@ -67,6 +67,9 @@ export default function MobileNav({navMenu, handleMenuHome, handleMenuAbout, han
                                 ))}
                             </div>
                         </div>
+                    </div>
+                    <div className="w-10 h-10 absolute -top-[11px] left-1/2 translate-x-[-50%] translate-y-[-50%]">
+                        <img src={Cat} alt="cat gif" className="w-full h-full"/>
                     </div>
                 </div>
             </div>
