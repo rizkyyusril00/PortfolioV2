@@ -53,7 +53,7 @@ export default function HomeBox2() {
               </h2>
             </div>
             <h2 className="text-[16px] lg:text-[20px] xl:text-[24px] text-primary">
-              My Internship Journey :
+              My Profesional  Journey :
             </h2>
           </div>
           {/* box kanan */}

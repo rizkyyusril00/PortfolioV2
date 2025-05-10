@@ -45,10 +45,10 @@ export default function ProjectBox2 () {
         },
         {
             id: 4,
-            link: "https://m-kasir.vercel.app/",
+            link: "https://likearth.co/",
             img: Project4,
             number: "bi bi-4-circle",
-            title: "Landing Page For Point of Sale",
+            title: "Landing Page Likearth Studio",
             logo : LogoTailwind,
             logo2 : "fa-brands fa-react",
             logo3 : "",
@@ -67,7 +67,7 @@ export default function ProjectBox2 () {
         },
         {
             id: 6,
-            link: "https://mangstore-react.vercel.app/",
+            link: "https://mentalhealing.id/home",
             img: Project6,
             number: "bi bi-6-circle",
             title: "Web App For Mental Health",
