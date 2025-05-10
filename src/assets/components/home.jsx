@@ -1,4 +1,4 @@
-import Contact from "./home-components/contact"
+// import Contact from "./home-components/contact"
 import HomeBox1 from "./home-components/homeBox1"
 import HomeBox2 from "./home-components/homeBox2"
 
@@ -10,7 +10,7 @@ export default function Home() {
             {/* box 2 */}
             <HomeBox2 />
             {/* contact */}
-            <Contact />
+            {/* <Contact /> */}
         </>
     )
 }

@@ -2,6 +2,7 @@ import CV from "../../../assets/CV.pdf";
 import LogoMangcoding from "../../img/logo-mangcoding.png";
 import LogoLikearth from "../../img/logo-likearth.png";
 import LogoTailwind from "../../img/tailwind-logo.svg";
+import LogoFigma from "../../img/figma.svg";
 import LogoVite from "/vite.svg";
 import LogoNextJs from "../../img/nextJs.png";
 
@@ -84,9 +85,9 @@ export default function HomeBox2() {
           </div>
         </div>
         {/* card experience */}
-        <div className="flex items-center gap-2">
+        <div className="flex gap-2">
           {/* mangkoding */}
-          <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
+          <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out h-full">
             <figure className="w-full">
               <img
                 src={LogoMangcoding}
@@ -105,18 +106,18 @@ export default function HomeBox2() {
                 </p>
               </div>
               <div className="flex items-center gap-1">
-                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">
+                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
                   Frontend Developer
                 </h2>
                 <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
-                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">
-                  February 2024 ~ Juni 2024
+                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
+                  February 2023 ~ June 2024
                 </p>
               </div>
             </div>
           </div>
           {/* likearth */}
-          <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
+          <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out h-full">
             <figure className="w-full">
               <img
                 src={LogoLikearth}
@@ -135,12 +136,12 @@ export default function HomeBox2() {
                 </p>
               </div>
               <div className="flex items-center gap-1">
-                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">
+                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
                   Frontend Developer
                 </h2>
                 <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
-                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg">
-                  September 2024 ~ Januari 2025
+                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
+                  September 2024 ~ January 2025
                 </p>
               </div>
             </div>
@@ -161,11 +162,11 @@ export default function HomeBox2() {
             <div className="flex items-center gap-4">
               <i className="bi bi-pc-display-horizontal text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
               <h2 className="text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">
-                Develope Website
+                Develope Website or UI/UX
               </h2>
             </div>
             <p className="text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">
-              I offer you i can develope a responsive and attractive website to
+              I offer you i can develope or design  an responsive and attractive website or mobile app to
               fulfill your needs
             </p>
           </div>
@@ -233,6 +234,14 @@ export default function HomeBox2() {
             </figure>
             <h2 className="text-[14px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">
               Vite
+            </h2>
+          </div>
+          <div className="flex items-center gap-2 cursor-pointer border border-primary rounded-xl p-2 group hover:bg-primary hover:border-bg">
+            <figure className="w-4 h-4 lg:w-[20px] lg:h-[20px] xl:w-[24px] xl:h-[24px]">
+              <img src={LogoFigma} alt="" className="w-full h-full object-fit" />
+            </figure>
+            <h2 className="text-[14px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">
+              Figma
             </h2>
           </div>
         </div>

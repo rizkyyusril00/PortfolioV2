@@ -1,7 +1,7 @@
 import Main from "./assets/components/main";
 import ParticlesComponent from "./assets/components/particles";
 import { useState } from "react";
-import "bootstrap-icons/font/bootstrap-icons.css";
+// import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   const [value, setValue] = useState(1);

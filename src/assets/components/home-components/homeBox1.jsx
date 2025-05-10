@@ -6,8 +6,8 @@ export default function HomeBox1() {
         <>
             <div className="flex flex-col gap-2 slg:gap-4 pb-4 px-2 md:px-0">
                 <div className="flex items-center gap-2">
-                    <h2 className="text-[28px] slg:text-[36px] lg:text-[40px] xl:text-[44px] text-primary">
-                    Supp, Im <span>FrontEnd Developer</span>
+                    <h2 className="text-[28px] slg:text-[30px] lg:text-[36px] xl:text-[44px] text-primary">
+                    Supp, Im <span>FrontEnd Developer ~ UI/UX</span>
                     </h2>
                     <div className="w-10 h-10 hidden md:flex items-center justify-center relative">
                         <img src={Cat} alt="cat gif" className="w-full h-full absolute right-2 -top-2"/>

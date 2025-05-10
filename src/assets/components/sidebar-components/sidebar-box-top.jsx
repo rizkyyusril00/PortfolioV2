@@ -20,7 +20,7 @@ export default function SidebarBoxTop ({valueMain, togleClickMain}) {
                 {/* section 3 */}
                 <div className="bg-transparent mt-1 slg:mt-3 lg:mt-4 xl:mt-6 w-full h-[55%] slg:h-[45%] relative rounded-xl flex flex-col justify-center items-center gap-1">
                     <h2 className="text-primary text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px]">Muhammad Rizky Yusril Arasyhi</h2>
-                    <h2 className="text-slate-500 text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px]">FrontEnd Developer</h2>
+                    <h2 className="text-slate-500 text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px]">FrontEnd Developer ~ UI/UX</h2>
                     <h2 className="text-slate-500 text-[10px] slg:text-[12px] lg:text-[16px] xl:text-[20px]">muhammadrizkyyusrilarasyhi00@gmail.com</h2>
                 </div>
             </div>

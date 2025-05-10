@@ -6,12 +6,12 @@ export default function InternCardCertificate() {
             id: 1,
             img: I_Certi1,
             Number: "bi bi-1-circle",
-            title: "Haltev Intoduction To Programming"
+            title: "Intern at Pt Anugrah Kreasi Digital"
         }
     ]
     return(
         <>
-            <div className="flex items-center justify-center gap-2">
+            <div className="flex gap-2">
                     {/* 1 */}
                     {internCertificate.map((item) => (
                         <div key={item.id} className="flex flex-col gap-4 border border-primary rounded-md p-4 w-full md:w-1/2 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out overflow-hidden">
