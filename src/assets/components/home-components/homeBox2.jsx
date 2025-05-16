@@ -1,4 +1,4 @@
-import CV from "../../../assets/CV.pdf";
+import CV from "../../../assets/CV2.pdf";
 import LogoMangcoding from "../../img/logo-mangcoding.png";
 import LogoLikearth from "../../img/logo-likearth.png";
 import LogoTailwind from "../../img/tailwind-logo.svg";
