@@ -23,7 +23,7 @@ export default function HomeBox1() {
                     <div className="flex items-center">
                         <i className="bi bi-dot text-[28px] slg:text-[36px] lg:text-[40px] xl:text-[44px] text-primary"></i>
                         <span className="decoration-dotted text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary">
-                        Currently Studying at University
+                        Bachelor of Computer Science
                         </span>
                     </div>
                 </div>
