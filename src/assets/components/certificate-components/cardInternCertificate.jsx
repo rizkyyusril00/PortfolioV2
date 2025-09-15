@@ -1,4 +1,5 @@
 import I_Certi1 from '../../img/intern-certi_skill1.jpg'
+import I_Certi2 from '../../img/intern-certi_skill2.jpg'
 
 export default function InternCardCertificate() {
     const internCertificate = [
@@ -7,6 +8,12 @@ export default function InternCardCertificate() {
             img: I_Certi1,
             Number: "bi bi-1-circle",
             title: "Intern at Pt Anugrah Kreasi Digital"
+        },
+        {
+            id: 2,
+            img: I_Certi2,
+            Number: "bi bi-2-circle",
+            title: "Intern at Likearth Studio"
         }
     ]
     return(

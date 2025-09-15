@@ -87,60 +87,64 @@ export default function HomeBox2() {
         {/* card experience */}
         <div className="flex gap-2">
           {/* mangkoding */}
-          <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out h-full">
-            <figure className="w-full">
-              <img
-                src={LogoMangcoding}
-                alt="logo_mangcoding"
-                className="w-full h-full object-cover"
-              />
-            </figure>
-            <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-4 border border-primary rounded-md p-4 w-[50%] group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
+            <div className="flex items-center gap-4">
+              <figure className="w-full">
+                <img
+                  src={LogoMangcoding}
+                  alt="logo_mangcoding"
+                  className="w-full h-full object-cover"
+                />
+              </figure>
+            </div>
+           <div className="flex flex-col gap-2">
               <div className="flex items-center gap-1">
-                <span className="text-primary text-[12px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
+                <span className="text-primary text-[12px] slg:text-[14px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
                   PT. Anugrah Kreasi Digital
                 </span>
-                <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] leading-tight group-hover:text-bg"></i>
-                <p className="text-primary text-[12px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
+                <i className="bi bi-dot text-primary text-[12px] slg:text-[12px] lg:text-[14px] leading-tight group-hover:text-bg"></i>
+                <p className="text-primary text-[12px] slg:text-[14px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
                   Sukabumi
                 </p>
               </div>
               <div className="flex items-center gap-1">
-                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
+                <h2 className="text-primary text-[12px] slg:text-[12px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
                   Frontend Developer
                 </h2>
-                <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
-                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
+                <i className="bi bi-dot text-primary text-[12px] slg:text-[12px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
+                <p className="text-primary text-[12px] slg:text-[12px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
                   February 2023 ~ June 2024
                 </p>
               </div>
             </div>
           </div>
           {/* likearth */}
-          <div className="bg-transparent border border-primary rounded-md p-4 w-full md:w-[50%] flex flex-col gap-4 group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out h-full">
-            <figure className="w-full">
+          <div className="flex flex-col gap-4 border border-primary rounded-md p-4 w-[50%] group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
+            <div className="flex items-center gap-4">
+              <figure className="w-full">
               <img
                 src={LogoLikearth}
                 alt="logo_mangcoding"
                 className="w-full h-full object-cover"
               />
             </figure>
+            </div>
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-1">
-                <span className="text-primary text-[12px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
+                <span className="text-primary text-[12px] slg:text-[14px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
                   Likearth Studio
                 </span>
-                <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] leading-tight group-hover:text-bg"></i>
-                <p className="text-primary text-[12px] slg:text-[12px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
+                <i className="bi bi-dot text-primary text-[12px] slg:text-[14px] lg:text-[14px] leading-tight group-hover:text-bg"></i>
+                <p className="text-primary text-[12px] slg:text-[14px] lg:text-[16px] xl:text-[20px] leading-tight group-hover:text-bg">
                   Sukabumi
                 </p>
               </div>
               <div className="flex items-center gap-1">
-                <h2 className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
+                <h2 className="text-primary text-[12px] slg:text-[12px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
                   Frontend Developer
                 </h2>
-                <i className="bi bi-dot text-primary text-[12px] slg:text-[10px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
-                <p className="text-primary text-[12px] slg:text-[10px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
+                <i className="bi bi-dot text-primary text-[12px] slg:text-[12px] lg:text-[14px] xl:text-[18px] leading-tight group-hover:text-bg"></i>
+                <p className="text-primary text-[12px] slg:text-[12px] lg:text-[12px] xl:text-[18px] leading-tight group-hover:text-bg">
                   September 2024 ~ January 2025
                 </p>
               </div>
@@ -158,6 +162,7 @@ export default function HomeBox2() {
         </div>
         {/* card services */}
         <div className="flex gap-2">
+          {/* 1 */}
           <div className="flex flex-col gap-4 border border-primary rounded-md p-4 w-[50%] group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
             <div className="flex items-center gap-4">
               <i className="bi bi-pc-display-horizontal text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
@@ -170,6 +175,7 @@ export default function HomeBox2() {
               fulfill your needs
             </p>
           </div>
+          {/* 2 */}
           <div className="flex flex-col gap-4 border border-primary rounded-md p-4 w-[50%] group hover:bg-primary hover:border-bg transition-all duration-500 ease-in-out">
             <div className="flex items-center gap-4">
               <i className="fa-solid fa-users-line text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg"></i>
@@ -178,7 +184,7 @@ export default function HomeBox2() {
               </h2>
             </div>
             <p className="text-[12px] slg:text-[16px] lg:text-[20px] xl:text-[24px] text-primary group-hover:text-bg">
-              Im very open to collaborating to create a really cool website
+              Im very open to collaborating to create a really cool website or design
             </p>
           </div>
         </div>

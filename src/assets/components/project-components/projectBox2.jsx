@@ -1,12 +1,11 @@
 import LogoTailwind from "../../img/tailwind-logo.svg"
 import LogoNextJs from "../../img/nextJs.png"
+import LogoFigma from "../../img/figma.svg";
 import Project1 from '../../img/project_1.png'
 import Project2 from '../../img/project_2.png'
 import Project3 from '../../img/project_3.png'
 import Project4 from '../../img/project_4.png'
-import Project5 from '../../img/project_5.png'
-import Project6 from '../../img/project_6.png' 
-import Project7 from '../../img/project_7.png' 
+import Project5 from '../../img/project_5.png' 
 
 export default function ProjectBox2 () {
     const projects = [
@@ -23,20 +22,9 @@ export default function ProjectBox2 () {
         },
         {
             id: 2,
-            link: "https://nugraha.me/index.html",
+            link: "https://anime-list-ooc7kt6mq-rizkyyusril00s-projects.vercel.app/",
             img: Project2,
             number: "bi bi-2-circle",
-            title: "Portfolio For Owner Mangcoding",
-            logo : LogoTailwind,
-            logo2 : "fa-brands fa-react",
-            logo3 : "",
-            have3logo: false
-        },
-        {
-            id: 3,
-            link: "https://nexcent-red.vercel.app/",
-            img: Project3,
-            number: "bi bi-3-circle",
             title: "Anime List With Jikan API",
             logo : LogoTailwind,
             logo2 : "fa-brands fa-react",
@@ -44,10 +32,10 @@ export default function ProjectBox2 () {
             have3logo: true
         },
         {
-            id: 4,
+            id: 3,
             link: "https://likearth.co/",
-            img: Project4,
-            number: "bi bi-4-circle",
+            img: Project3,
+            number: "bi bi-3-circle",
             title: "Landing Page Likearth Studio",
             logo : LogoTailwind,
             logo2 : "fa-brands fa-react",
@@ -55,21 +43,10 @@ export default function ProjectBox2 () {
             have3logo: false
         },
         {
-            id: 5,
-            link: "https://mangstore-react.vercel.app/",
-            img: Project5,
-            number: "bi bi-5-circle",
-            title: "Static E Commerce",
-            logo : LogoTailwind,
-            logo2 : "fa-brands fa-react",
-            logo3 : "",
-            have3logo: false
-        },
-        {
-            id: 6,
+            id: 4,
             link: "https://mentalhealing.id/home",
-            img: Project6,
-            number: "bi bi-6-circle",
+            img: Project4,
+            number: "bi bi-4-circle",
             title: "Web App For Mental Health",
             logo : LogoTailwind,
             logo2 : "fa-brands fa-react",
@@ -77,16 +54,16 @@ export default function ProjectBox2 () {
             have3logo: true
         },
         {
-            id: 7,
-            link: "https://nexcent-red.vercel.app/",
-            img: Project7,
-            number: "bi bi-7-circle",
-            title: "Ordinary Landing Page",
-            logo : LogoTailwind,
-            logo2 : "fa-brands fa-react",
-            logo3 : "",
+            id: 5,
+            link: "https://www.figma.com/design/c8c565UzE2nTdxNiIAZ7kg/skripsi?node-id=791-20664&t=cnmQVsNRk4Z1GRgQ-1",
+            img: Project5,
+            number: "bi bi-5-circle",
+            title: "Design UI/UX Travel",
+            logo : LogoFigma,
+            logo2 : "",
+            logo3 : LogoFigma,
             have3logo: false
-        },
+        }
     ]
     return (
         <>
